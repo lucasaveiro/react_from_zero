@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Footer-styles.css';
 
 const date = new Date();
 const fullYear = date.getFullYear().toString();

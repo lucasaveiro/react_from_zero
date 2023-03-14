@@ -5,7 +5,7 @@ function Note (){
     return (
         <div className='note-container'>
             <div className='note'>
-                <h1>This is the title</h1>
+                <h2>This is the title</h2>
                 <p>This is the content</p>
             </div>
         </div>

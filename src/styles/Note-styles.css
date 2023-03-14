@@ -1,36 +1,43 @@
 .note-container {
-    margin-left: 0px;
-    padding: 20px;
     background-color: rgb(230, 230, 230);
+
     display: flex;
-    height: 770px;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+    padding: 0px;
+    height: 81vh;
     max-width: 100%;
-    max-height: 70%;
+    max-height: 81vh;
 }
 
 .note{
     background-color: white;
 
-    width: 200px;
-    height: 80px;
-    max-height: 80px;
-    max-width: 200px;
-    padding: 0px;
-    border-radius: 10px;
+    width: 240px;
+    padding: 10px;
+    border-radius: 7px;
+    margin: 16px;
+    box-shadow: 0 2px 5px #ccc;
+    float: left;
 
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 0px 15px;
+    padding: 5px 15px;
 
 }
 
-.note h1, p {
-    font-family: Roboto, sans-serif;
+.note h2 {
+    font-family: "Montserrat", sans-serif;
     font-size: 1.2rem;
-    margin: 0px;
+    margin-bottom: 0px;
 }
 
 .note p {
-    font-size: 1.0rem;
+    font-family: "Montserrat", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
 }
