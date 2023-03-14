@@ -1,0 +1,9 @@
+.header-container {
+    background-color: rgb(255, 185, 56);
+    color: white;
+    display: flex;
+    font-family: Righteous ,Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1rem;
+    padding-left: 2%;
+    margin: 0px;
+}
